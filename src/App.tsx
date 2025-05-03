@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <Hero />
       <Sponsors />
+      <Pricing />
       <About />
       <HowItWorks />
       <Features />
@@ -28,7 +29,7 @@ function App() {
       <Cta />
       <Testimonials />
       <Team />
-      <Pricing />
+      
       <Newsletter />
       <FAQ />
       <Footer />

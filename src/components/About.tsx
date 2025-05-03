@@ -23,12 +23,9 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+              <span className="font-bold text-green-500">Our Mission:</span> To empower your fitness journey. We provide expert guidance, tools, and a supportive community to help you achieve your health and wellness goals. Join our thriving community and become your strongest, fittest self. <br /> <br />🚀 Join Our Thriving Community:
               </p>
+           
             </div>
 
             <Statistics />

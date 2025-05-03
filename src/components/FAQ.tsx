@@ -13,33 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "What is You Can Transform and how can it help me?",
+    answer: "You Can Transform is a lead management platform designed specifically for coaches. It helps you streamline your business, manage clients effectively, automate tasks, and ultimately grow your practice.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "How does the platform help me track client progress?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "You can easily monitor your clients' achievements, track their progress, and provide feedback, all within the platform.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "Can i use You Can Transform to schedule sessions with my clients?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Yes, our platform includes a scheduling feature that allows clients to book sessions directly with you, reducing administrative work.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "How is you can transform different from other lead management systems?",
+    answer: "You Can Transform is tailored specifically to the needs of coaches, with features like client progress tracking, session scheduling, and portfolio management.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      "How Secure is my data on You Can Transform?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      " We take data security very seriously. We employ industry-standard encryption and security measures to protect your information and your clients' data.",
     value: "item-5",
   },
 ];

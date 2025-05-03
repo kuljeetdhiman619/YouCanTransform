@@ -17,9 +17,7 @@ export const Cta = () => {
             In One Interface
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8 lg:mb-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
-            beatae. Ipsa tempore ipsum iste quibusdam illum ducimus eos. Quasi,
-            sed!
+          A central hub for all your coaching needs. Organize client data, develop session plans, and manage your coaching business with our powerful and feature-rich interface !
           </p>
         </div>
 
@@ -27,9 +25,9 @@ export const Cta = () => {
           <Button className="w-full md:mr-4 md:w-auto">Request a Demo</Button>
           <Button
             variant="outline"
-            className="w-full md:w-auto"
+            className="w-full md:w-auto md:mr-4"
           >
-            View all features
+            <a href="#pricing">Get Started</a>
           </Button>
         </div>
       </div>

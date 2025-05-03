@@ -30,29 +30,33 @@ const pricingList: PricingProps[] = [
     popular: 0,
     price: 0,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Get Started",
+      "Start your coaching presence for free..",
+    buttonText: "Get Free Trial",
     benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
+      "1 Coach Profile",
+      "1 GB Storage",
+      "1 Page Public Portfolio Page",
+      "Appointment Booking (Basic Access)",
+      "SMS Notifications (Limited)",
+      "Community Support",
+      "Basic Analytics Dashboard",
     ],
   },
   {
-    title: "Premium",
+    title: "Pro Plan",
     popular: 1,
     price: 5,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Start Free Trial",
+      " Scale your coaching business with enhanced tools.",
+    buttonText: "Buy Now",
     benefitList: [
       "4 Team member",
       "4 GB Storage",
-      "Upto 6 pages",
+      "Upto 6 pages for portfolio",
       "Priority support",
-      "lorem ipsum dolor",
+      "Advanced Analytics & Reporting",
+      "Customizable Appointment Booking",
+      "SMS Notifications (Unlimited)",
     ],
   },
   {
@@ -60,14 +64,16 @@ const pricingList: PricingProps[] = [
     popular: 0,
     price: 40,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
-    buttonText: "Contact US",
+      "Tailored enterprise solution for optimized team and client management.",
+    buttonText: "Buy Now",
     benefitList: [
       "10 Team member",
       "8 GB Storage",
-      "Upto 10 pages",
+      "Upto 10 pages for portfolio",
       "Priority support",
-      "lorem ipsum dolor",
+      "Dedicated Account Manager",
+      "White Label Branding",
+      "Ai Tools and Features",
     ],
   },
 ];
@@ -87,8 +93,7 @@ export const Pricing = () => {
         Access
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-        reiciendis.
+      Unlock Coaching Potential, Transform Clients, Maximize Reach, Empower Journey
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (

@@ -17,45 +17,45 @@ interface TestimonialProps {
 const testimonials: TestimonialProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    name: "Sarah M",
+    userName: "@sarah_M",
+    comment: "You Can Transform has been a game-changer! It's so easy to manage clients, schedule sessions, and track progress.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    name: "John K",
+    userName: "@john_k",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "I love how intuitive this software is. I was up and running in minutes, and it has saved me hours of administrative work.",
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
+    name: "Jessica L",
+    userName: "@jessicaL",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "The client management features are fantastic. I can keep all my client information organized and easily access it whenever I need it.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    name: "David R",
+    userName: "@david__r",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "This software has helped me grow my coaching business. I'm able to reach more clients and provide a better experience for them",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    name: "Maria P",
+    userName: "@maria2p_p",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "The support team is amazing! They are always responsive and helpful whenever I have questions.",
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    name: "Emily Williams",
+    userName: "@emilywilliams",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I highly recommend You Can Transform to any coach looking to streamline their business and improve client outcomes.",
   },
 ];
 
@@ -66,17 +66,16 @@ export const Testimonials = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold">
-        Discover Why
+      Hear From Our 
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Coaches{" "}
         </span>
-        This Landing Page
+        
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+      A central hub for all your coaching needs. Organize client data, develop session plans, and manage your coaching business with our powerful and feature-rich interface.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">

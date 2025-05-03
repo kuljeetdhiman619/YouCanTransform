@@ -10,23 +10,36 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Client Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Streamline client interactions, track session history, and manage client data efficiently.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Appointment Scheduling",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Simplify booking with automated scheduling and reminders, reducing no-shows.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Communication Tools",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Connect with clients via integrated messaging, email, and notifications.",
     icon: <MagnifierIcon />,
   },
+  {
+    title: "Progress Tracking",
+    description:
+      "Monitor client achievements, provide feedback, and adjust coaching plans for optimal results.",
+    icon: <MagnifierIcon />,
+  },
+  {
+    title: "Payment Processing",
+    description:
+      "Securely process payments, manage invoices, and track revenue within the platform.",
+    icon: <ChartIcon />,
+  },
+
 ];
 
 export const Services = () => {
@@ -42,8 +55,7 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+          Facilitate seamless transactions, generate detailed invoices, and gain clear insights into your revenue streams.
           </p>
 
           <div className="flex flex-col gap-8">

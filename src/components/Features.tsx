@@ -18,21 +18,21 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Client Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Manage all your client interactions in one place. From session scheduling to progress tracking, simplify your workflow and stay organized",
     image: image4,
   },
   {
     title: "Intuitive user interface",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Get started quickly and focus on coaching. Our platform's intuitive design makes navigation and feature access a breeze, even for non-tech-savvy coaches.",
     image: image3,
   },
   {
     title: "AI-Powered insights",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Leverage AI to grow your coaching business. Get data-driven insights into client trends, revenue, and more to make informed decisions and optimize your services.",
     image: image,
   },
 ];
@@ -44,7 +44,6 @@ const featureList: string[] = [
   "Pricing",
   "Contact form",
   "Our team",
-  "Responsive design",
   "Newsletter",
   "Minimalist",
 ];
