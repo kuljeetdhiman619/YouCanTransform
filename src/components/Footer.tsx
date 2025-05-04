@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
               className="opacity-60 hover:opacity-100"
             >
               Github
